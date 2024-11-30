@@ -18,7 +18,7 @@ class NewsModel {
       image: json['image'],
       source: json['source'],
       // Convert Unix timestamp (seconds) to DateTime
-      date: DateTime.fromMillisecondsSinceEpoch(json['datetime'] * 1000), 
+      date: DateTime.fromMillisecondsSinceEpoch(json['datetime'] * 1000),
       headline: json['headline'],
       url: json['url'],
     );
